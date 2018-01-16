@@ -1,0 +1,564 @@
+body,html{overflow-x:hidden!important; font-family: 'Hind Madurai', sans-serif; background-color:#fff}a:active,a:hover,a:link,a:visited{text-decoration:none}.space0{margin-top:5px;margin-bottom:5px}.space1{margin-top:10px;margin-bottom:10px}.space2{margin-top:20px;margin-bottom:20px}.space3{margin-top:30px;margin-bottom:30px}.space4{margin-top:40px;margin-bottom:40px}.space5{margin-top:50px;margin-bottom:50px}.space6{margin-top:60px;margin-bottom:60px}.space7{margin-top:70px;margin-bottom:70px}.space8{margin-top:80px;margin-bottom:80px}.space9{margin-top:90px;margin-bottom:90px}.space10{margin-top:100px;margin-bottom:100px}.no-padding{margin:0;padding:0}
+
+.fonts{
+    font-family: 'Slabo 27px', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+
+.menup ul li a{
+    color: #3f5667;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.lasredes p{
+    font-size: .9em;
+    color: #fff;
+    font-weight: bold;
+}
+.redess ul li a{
+    font-size: 1.5em;
+    color: #fff;
+}
+.redess{
+    text-align: center;
+}
+.active{
+    border-bottom: 5px solid #ffef00;
+}
+.bg-sec1{
+    background-image: url(../img/fondogray.jpg);
+}
+.bg-sec2{
+    background: url(../img/fondo-books.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-blue{
+    background-color: #ceeaed;
+}
+.bg-calendar{
+    background: url(../img/fondo-calendar.jpg) no-repeat center bottom; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-porque{
+    background: url(../img/background4.jpg) no-repeat center bottom; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-footer{
+    background-color: #f90077;    
+}
+.bloquesone h3{
+    font-size: 1.6em;
+    color: #000;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+.bloquesone h3 span{
+    color: #7b7878;
+}
+.bloquesone p{
+    font-size: 1em;
+    color: #44465d;
+}
+.bloquesone a{
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    border: 5px solid #e3e3e3;
+    padding: 10px;
+    text-align: center;
+    color: #383c43;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.bloquesone a:hover{
+    background-color: #dd1177;
+    border: 5px solid #dd1177;
+    color: #fff;
+}
+.acercade h2{
+    font-family: 'Oswald', sans-serif;
+    color: #dd1177;
+    font-size: 3em;
+}
+.acercade h3{
+    font-weight: bold;
+    font-size: 1.7em;
+}
+.acercade p{
+    font-size: 1em;
+}
+.acercade a{
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    padding: 18px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    background-color: #0dbbdb;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.acercade a:hover{
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    padding: 18px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    background-color: #059eba;
+}
+
+/*************acordeon***************/
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #dea0e6;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: #dea0e6;
+    border-color: #dea0e6;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #fff;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+/*************acordeon***************/
+
+.titubene h2{
+    font-family: 'Oswald', sans-serif;
+    color: #dd1177;
+    font-size: 3em;
+}
+.dicatanen h3{
+    font-size: 1.3em;
+    color: #cc6d50;
+    font-weight: bold;
+}
+.infoconvenio h2{
+    font-size: 2.3em;
+    color: #7eaec7;
+    font-family: 'Oswald', sans-serif;
+}
+.btnconveniss{
+    border: 3px solid #fff;
+    padding: 5px 5px 5px 80px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+    color: #346371;
+} 
+.btnconveniss:hover{
+    color: #fff;
+} 
+.iconpeso{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #32bfc8;
+    text-align: center;
+    font-size: 2em;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: -15px;
+}
+.picpeople{
+    position: absolute;
+    margin-top: -62px;
+    right: 0px;
+}
+.calendar{
+    max-width: 250px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding: 12px;
+    margin: 0px auto;
+    display: block;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.4);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.4);
+    box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.4);
+}
+.calendar i{
+    font-size: 2em;
+}
+.calendar h2{
+    color: #579057;
+    font-size: 1em;
+    font-weight: bold;
+}
+.redesss{ 
+    text-align: center;
+}
+.redesss ul li a{
+    height: 40px;
+    width: 40px;
+    text-align:center;
+    line-height: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #573c11;
+    background-color:antiquewhite;
+    display: block;
+    font-size: 1.5em;
+}
+.redesss ul li a:hover{
+    color: #be924c;
+}
+.infofot h2{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 25px;
+}
+.infofot p{
+    font-size: 1em;
+    color: #fff;
+}
+.infofot ul li a{
+    font-size: 1em;
+    color: #fff;
+}
+.credits{
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+    color: chocolate;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.credits a{
+    color: #392e1b;
+ 
+}
+.infofot p span{
+    color: #392e1b;
+    font-weight: bold;
+}
+.infofot p a{
+    color: #ccc2a6;
+}
+.bg-somos{
+    background: url(../img/bg-somos.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-serv{
+    background: url(../img/bg-serv.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-oferta{
+    background: url(../img/bg-oferta.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-inscrip{
+    background: url(../img/bg-inscrip.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-cont{
+    background: url(../img/bg-cont.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-green{
+    background-image: url(../img/bg-image-12.jpg);
+}
+.bg-yellow{
+    background-image: url(../img/bg-yellow.jpg);
+}
+.titulos{
+    text-align: center;
+}
+.titulos h1{
+    font-size: 3em;
+    color: #fff;
+    margin: 0px; 
+    font-family: 'Oswald', sans-serif;
+}
+.titulos h2{
+    font-size: 1.2em;
+    color: #c6c5c5;
+
+}
+.bordeconv img{
+    border: 1px solid #e0e0e0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btngal{
+    max-width: 200px;
+    margin: 0px auto;
+}
+.btngal a{
+    display: block;
+    padding: 10px;
+    background-color: orange;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    height: 80px;
+    line-height: 40px;
+    border: 10px solid  #e0e0e0;
+    
+}
+
+.bg-img{
+    background: #f2f3f8 url(../img/educadores.jpg);
+    background-size: 49%;
+    background-position: left center;
+    background-repeat:no-repeat;
+}
+.bg-img2{
+    background: #fff url(../img/inmuebles.jpg);
+    background-size: 49%;
+    background-position: right center;
+    background-repeat:no-repeat;
+}
+.bg-img3{
+    background: #f2f3f8 url(../img/alimentacion.jpg);
+    background-size: 49%;
+    background-position: left center;
+    background-repeat:no-repeat;
+}
+.infosomos h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+.infosomos h3{
+    font-size: 2em;
+    color: #818179;
+}
+.infosomos p{
+    font-size: 1.1em;
+    color: #555551;
+    line-height: 22px;
+}
+.separador{
+    max-width: 100px;
+    height: 5px;
+    background-color: #f90077;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.alcentro{
+    text-align: center;
+}
+.separador0{
+    max-width: 100px;
+    margin: 0px auto;
+    height: 5px;
+    background-color: #f90077;
+}
+
+.servcuadro{
+    border: 5px solid #e6e6e6;
+    padding: 15px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.actibox{
+    border: 5px solid #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #576b74;
+    background-color: #fff;
+}
+.servcuadro:hover{
+    border: 5px solid #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #576b74;
+    background-color: #fff;
+}
+.servcuadro h2{
+    font-size: 1.7em;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+.servcuadro p{
+    font-size: 1em;
+}
+.icon{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.icon i{
+    font-size: 4em;
+}
+.bg-contx{
+    background-color: #363d41;
+}
+.wats h2{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.contactinfo{
+    color: #fff;
+}
+.contactinfo h3{
+    margin: 0px;
+    font-size: 1.3em;
+    color: #ffb100;
+}
+.contactinfo a{
+    color: #fff;
+    font-size: 1em;
+}
+.contactinfo p{
+    color: #fff;
+    font-size: 1em;
+}
+.contactinfo i{
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.stilex{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #444c50;
+    color: #fff;
+    border: none;
+}
+.btnyellow{
+    background-color: #ffb100;
+    border: none;
+}
+.requis h2{
+    font-size: 1.8em;
+    font-family: 'Oswald', sans-serif;
+    color: #ba007c;
+}
+.requis h3{
+    font-size: 1.2em;
+}
+
+.plecabann{
+    background-color: #ba007c;
+    padding: 10px;
+}
+.plecabann h2{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+}
+.plecabann p{
+    font-size: .9em;
+    color: #fff;
+}
+.tituof h2{
+    font-size: 1.8em;
+    font-family: 'Oswald', sans-serif;
+}
+.cajaof2{
+    background-color: #0dbbdb;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cajaof{
+    background-color: #0eafcc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cajaof h2{
+    margin: 0px;
+    font-size: 1.1em;
+}
+.cajaof2 h2{
+    margin: 0px;
+    font-size: 1.1em;
+}

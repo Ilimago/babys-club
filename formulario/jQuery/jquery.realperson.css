@@ -1,0 +1,50 @@
+/* Real Person jQuery plugin styles v2.0.0. */
+.realperson-challenge {
+	display: block !important;
+	color: #000 !important;
+}
+.realperson-text {
+	font-family: "Courier New",monospace !important;
+	font-size: 4px !important;
+	font-weight: bold !important;
+	letter-spacing: -1px !important;
+	line-height: 2px !important;
+	border:solid 1px #2a3037  !important;
+	padding:5px 10px 5px 5px !important;
+	color:#FFF !important;
+	background-color:#21252b !important;
+}
+#defaultReal, #capchapeke, #captcha_serv{
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:12px !important;
+	color:#666 !important;
+	padding:5px !important;
+	border-bottom:solid 1px #2a3037 !important;
+	border-right:solid 1px #2a3037 !important;
+	border-top:solid 1px #2a3037 !important;
+	border-left:none !important;
+	width:80px !important;
+	height: 26px;
+}
+.realperson-regen {
+	padding-top: 1px !important;
+	font-size: 10px !important;
+	cursor: pointer !important;
+	color:#3399CC !important;
+}
+.realperson-disabled {
+	opacity: 0.5 !important;
+	filter: Alpha(Opacity=50) !important;
+}
+.realperson-disabled .realperson-regen {
+	cursor: default !important;
+}
+
+.realperson-challenge{
+	float:left !important;
+}
+
+.captcha{
+	margin-top:5px;
+}
+

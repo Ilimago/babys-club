@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+/*******************************************************************************************************************/
+/* Small screens */
+@media only screen { } /* Define mobile styles */
+@media only screen and (max-width: 768px) { 
+    .topinfo{
+        width: 100%;
+
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 1000;
+    }
+    .navstyle{
+        font-size: .9em;
+        font-weight: bold;
+        color: #000;
+    }
+    .logosise{
+        width: 120px;
+        position: absolute;
+    }
+
+    .bloquesone h3{
+       height: 60px;
+        font-size: 1.3em;
+    }
+    .arrow{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 1em;
+        color: #fff;
+        text-align: center;
+        background-color: #0dbbdb;
+    }
+    
+    .bg-somos{
+        height: 30vh;
+    }
+    .bg-serv{
+        height: 30vh;
+    }
+    .bg-oferta{
+        height: 30vh;
+    }
+    .bg-inscrip{
+        height: 30vh;
+    }
+    .bg-cont{
+        height: 30vh;
+    }
+    .tituspace{
+        height: 30px;
+    }
+/*******************************************************************************************************************/   
+} 
+/*******************************************************************************************************************/
+/* Medium screens */
+@media only screen and (min-width: 769px) { }
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .topinfo{
+        width: 100%;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 1000;
+    }
+    .navstyle{
+        font-size: .7em;
+        font-weight: bold;
+        color: #000;
+    }
+    .bloquesone p{
+        height: 120px;
+    }
+    .bloquesone h3{
+       height: 60px;
+        font-size: 1.3em;
+    }
+    .arrow{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 1em;
+        color: #fff;
+        text-align: center;
+        background-color: #0dbbdb;
+    }
+    .lasredes{
+        float: right;
+        background-color: #f90077;
+        max-width: 300px;
+        padding: 10px 10px 5px;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        -webkit-border-bottom-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .logosise{
+        width: 150px;
+    }
+    .cajaof2{
+        height: 50px;
+    }
+    
+    .bg-somos{
+        height: 30vh;
+    }
+    .bg-serv{
+        height: 30vh;
+    }
+    .bg-oferta{
+        height: 30vh;
+    }
+    .bg-inscrip{
+        height: 30vh;
+    }
+    .bg-cont{
+        height: 30vh;
+    }
+    .tituspace{
+        height: 80px;
+    }
+/*******************************************************************************************************************/  
+}
+/*******************************************************************************************************************/
+/* Medium screens */
+@media only screen and (min-width: 993px) { }
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .topinfo{
+        width: 100%;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.8);
+        z-index: 1000;
+    }
+    .navstyle{
+        font-size: .8em;
+        font-weight: bold;
+    }
+    .bloquesone p{
+        height: 100px;
+    }
+    .bloquesone h3{
+       height: 70px;
+    }
+    .arrow{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 2em;
+        color: #fff;
+        text-align: center;
+        background-color: #0dbbdb;
+    }
+    .lasredes{
+        float: right;
+        background-color: #f90077;
+        max-width: 300px;
+        padding: 10px 10px 5px;
+        -webkit-border-bottom-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .logosise{
+        width: 200px;
+    }
+    .cajaof2{
+        height: 50px;
+    }
+    
+    .bg-somos{
+        height: 30vh;
+    }
+    .bg-serv{
+        height: 30vh;
+    }
+    .bg-oferta{
+        height: 30vh;
+    }
+    .bg-inscrip{
+        height: 30vh;
+    }
+    .bg-cont{
+        height: 30vh;
+    }
+    .tituspace{
+        height: 80px;
+    }
+/*******************************************************************************************************************/  
+} 
+/*******************************************************************************************************************/
+/* Extra Large screens */
+@media only screen and (min-width: 1201px) { }
+@media only screen and (min-width: 1201px){
+    .topinfo{
+        width: 100%;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.8);
+        z-index: 1000;
+        border-bottom: 5px solid #fff;
+        border-style: dotted;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+
+    }
+    .topinfo2{
+        width: 100%;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        z-index: 1000;
+        border-bottom: 5px solid #fff;
+        border-style: dotted;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+
+    }
+
+    .bloquesone p{
+        height: 90px;
+    }
+    .arrow{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 2em;
+        color: #fff;
+        text-align: center;
+        background-color: #0dbbdb;
+    }
+    .navstyle{
+        font-size: .9em;
+        font-weight: bold;
+    }
+    .lasredes{
+        float: right;
+        background-color: #f90077;
+        max-width: 300px;
+        padding: 10px 10px 5px;
+        -webkit-border-bottom-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .logosise{
+        width: 200px;
+    }
+    
+    .bg-somos{
+        height: 50vh;
+    }
+    .bg-serv{
+        height: 50vh;
+    }
+    .bg-oferta{
+        height: 50vh;
+    }
+    .bg-inscrip{
+        height: 50vh;
+    }
+    .bg-cont{
+        height: 50vh;
+    }
+    .tituspace{
+        height: 220px;
+    }
+    .servcuadro h2{
+        height: 60px;
+    }
+    .infotxtx{
+        height: 150px;
+    }
+    
+    .cajaof2{
+        height: 50px;
+    }
+/******************************************************************************************************************/   
+}
+/*******************************************************************************************************************/
+
+
